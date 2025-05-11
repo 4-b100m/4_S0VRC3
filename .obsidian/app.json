@@ -1,0 +1,10 @@
+{
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "showLineNumber": true,
+  "strictLineBreaks": true,
+  "tabSize": 8,
+  "vimMode": false,
+  "uriCallbacks": true
+}
