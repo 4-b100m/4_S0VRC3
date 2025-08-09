@@ -1,3 +1,14 @@
+---
+uniqueID: AA09
+title: "AAW_CORE12 \u2014 MYTHICAL CITATION SYSTEM"
+tags:
+- core
+- system
+- template
+- thread
+- protocol
+---
+
 # AAW_CORE::12 — MYTHICAL CITATION SYSTEM
 
 ## NAME:

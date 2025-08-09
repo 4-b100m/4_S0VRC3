@@ -1,3 +1,12 @@
+---
+uniqueID: AA00
+title: NAME_STRUCTURE_OVERVIEW.md
+tags:
+- protocol
+- system
+- core
+---
+
 
 # NAME_STRUCTURE_OVERVIEW.md
 

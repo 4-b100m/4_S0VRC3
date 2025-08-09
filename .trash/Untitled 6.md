@@ -1,3 +1,10 @@
+---
+uniqueID: TR12
+title: "\U0001F9ED Vault State File"
+tags:
+- core
+---
+
 # 🧭 Vault State File  
 **Vault Name:** `4_S0VRC3`  
 **Path:** `/Users/anthonyjamespadavano/Documents/_4JP_/4_S0VRC3`  

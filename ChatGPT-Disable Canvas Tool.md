@@ -1,3 +1,14 @@
+---
+uniqueID: LB00
+title: Disable Canvas Tool
+tags:
+- thread
+- core
+- system
+- protocol
+- template
+---
+
 # Disable Canvas Tool
 
 **User:** Anthony Padavano (padavano.anthony@gmail.com)  

@@ -1,3 +1,15 @@
+---
+uniqueID: GN60
+title: folder_map.md
+tags:
+- protocol
+- digest
+- thread
+- system
+- template
+---
+
+
 # folder_map.md
 📁 **4_S0VRC3 Vault Folder Structure**
 _Last updated: 2025-05-04_

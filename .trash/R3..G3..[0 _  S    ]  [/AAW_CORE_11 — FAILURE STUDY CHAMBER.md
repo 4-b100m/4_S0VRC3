@@ -1,3 +1,12 @@
+---
+uniqueID: R355
+title: "AAW_CORE11 \u2014 FAILURE STUDY CHAMBER"
+tags:
+- core
+- system
+- protocol
+---
+
 # AAW_CORE::11 — FAILURE STUDY CHAMBER
 
 ## NAME:
