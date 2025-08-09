@@ -127,15 +127,21 @@ git --no-pager diff --stat
 
 # Check for any unintended changes to special files
 git --no-pager status .obsidian/
+
+# Verify git is tracking files correctly (should show ~277 files)
+git --no-pager ls-files | wc -l
 ```
 
 ### Content Integrity
 ```bash
-# Ensure markdown files are well-formed
+# Ensure markdown files are well-formed (takes ~1 second)
 find . -name "*.md" -exec markdown {} \; > /dev/null
 
-# Check for broken symbolic links or file issues
+# Check for broken symbolic links (should show 0 - no symlinks in this repo)
 find . -type l -exec ls -la {} \;
+
+# Verify large files can be processed (largest is ~2000 lines)
+wc -l "ChatGPT-Merge Project Folders.md"
 ```
 
 ## Common Development Tasks
@@ -168,9 +174,60 @@ mkdir -p "new_directory"
 echo "# New File" > "new_directory/README.md"
 ```
 
-## Timing Expectations and Performance
+## Manual Validation Requirements
 
-### Fast Operations (< 1 second)
+### After Making Any Changes
+When modifying content in this vault, **ALWAYS** run these validation steps:
+
+```bash
+# 1. Verify your changes don't break markdown syntax
+find . -name "*.md" -exec markdown {} \; > /dev/null && echo "✓ All markdown valid"
+
+# 2. Check git status shows expected changes
+git --no-pager status
+
+# 3. Preview your changes
+git --no-pager diff --name-only
+git --no-pager diff
+
+# 4. Test file accessibility if you modified special character names
+ls -la "; RE•GE•OS ; RG•01 ;" > /dev/null && echo "✓ Special folders accessible"
+
+# 5. Verify repository integrity
+echo "Files tracked by git: $(git ls-files | wc -l)"
+echo "Total markdown files: $(find . -name '*.md' | wc -l)"
+echo "Thread digests: $(ls ARCHIVAL_STACK/PR*_THREAD_DIGEST.md | wc -l)"
+```
+
+### Validation Scenarios
+**CRITICAL**: Always test these specific scenarios after changes:
+
+1. **Content Navigation Test**:
+   ```bash
+   cat SYSTEM_ROOT_README.md | head -10  # Should show system overview
+   cat __VAULT_GUIDE__.md | head -10     # Should show usage guide
+   ```
+
+2. **Search Functionality Test**:
+   ```bash
+   grep -r "protocol" . --include="*.md" | wc -l  # Should show ~88 results
+   find . -name "*THREAD*" | head -5              # Should show thread files
+   ```
+
+3. **Special Character Handling Test**:
+   ```bash
+   ls -la "; RE•GE•OS ; RG•01 ;"  # Should list RE•GE•OS contents
+   find . -name "*RE•GE•OS*"     # Should find symbolic folders
+   ```
+
+4. **File Count Integrity Test**:
+   ```bash
+   # These counts should remain consistent unless you specifically added/removed files
+   find . -name "*.md" | wc -l                    # Should show 136+ 
+   ls ARCHIVAL_STACK/PR*_THREAD_DIGEST.md | wc -l # Should show 15
+   ```
+
+## Timing Expectations and Performance
 - `git status` and `git log`
 - Basic file listing with `ls`
 - Simple grep searches
@@ -207,6 +264,10 @@ ls -la "; <TAB>
 
 # Or use find to locate files
 find . -name "*RE•GE•OS*"
+
+# Always use quotes for folder names with spaces/symbols
+ls -la "; RE•GE•OS ; RG•01 ;"
+cat "; M1R•R0R ; MR•01 ;/; MIR•R0R ; MR•01 ;.md"
 ```
 
 ### Git Issues
@@ -214,8 +275,11 @@ find . -name "*RE•GE•OS*"
 # If files seem missing, check git status
 git --no-pager status
 
-# View what files git is tracking
+# View what files git is tracking (should be ~277 files)
 git --no-pager ls-files | head -20
+
+# If git shows unusual status, check repository integrity
+git --no-pager fsck --no-reflogs
 ```
 
 ### Content Location Issues
@@ -225,6 +289,33 @@ cat __VAULT_GUIDE__.md
 
 # Use the system map for orientation  
 cat SYSTEM_ROOT_README.md
+
+# Find files by content when structure is unclear
+grep -r "search_term" . --include="*.md"
+```
+
+### Performance Issues
+```bash
+# If operations seem slow, check system resources
+df -h .  # Check disk space
+ls -la | wc -l  # Check file count in current directory
+
+# Large file operations - these files are biggest:
+# ChatGPT-Merge Project Folders.md (~2000 lines)
+# SYMBOLIC_TREE_MAP.md (~500+ lines)
+```
+
+### Validation Failures
+```bash
+# If markdown validation fails
+find . -name "*.md" -exec markdown {} \; 2>&1 | head -10
+
+# If file counts are wrong, investigate
+find . -name "*.md" -exec echo "Processing: {}" \; | tail -10
+git ls-files "*.md" | wc -l  # Compare git tracking vs filesystem
+
+# If special folders are inaccessible
+find . -name "*•*" -type d  # Find all folders with special characters
 ```
 
 This vault is a living creative system - approach changes thoughtfully and preserve the symbolic structure that makes it functional.
