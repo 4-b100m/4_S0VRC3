@@ -1,0 +1,158 @@
+name: Promotion Request
+description: Request promotion of an internal ENV rule for cross-repository use
+title: "[PROMOTION] "
+labels: ["promotion", "governance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Promotion Request
+        
+        Use this template to request promotion of an internal experimental rule for use in external repositories. Please complete all sections to ensure proper evaluation.
+        
+  - type: input
+    id: env_rule_id
+    attributes:
+      label: "Current ENV Rule Identifier"
+      description: "The current internal identifier (e.g., ENV.DOC.FRONTMATTER)"
+      placeholder: "ENV.RULE.NAME"
+    validations:
+      required: true
+      
+  - type: input
+    id: proposed_external_name
+    attributes:
+      label: "Proposed External Name/Identifier"
+      description: "Proposed name for the rule after promotion (without ENV prefix)"
+      placeholder: "DOC.FRONTMATTER or new_rule_name"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: rule_description
+    attributes:
+      label: "Rule Description"
+      description: "Clear description of what this rule defines or governs"
+      placeholder: "This rule defines..."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: stability_evidence
+    attributes:
+      label: "Stability Evidence"
+      description: "Evidence that the rule is stable and ready for promotion"
+      placeholder: |
+        - Rule has been stable for X days
+        - Used in Y files within the repository
+        - No breaking changes in the last Z days
+        - Stability score: X.X
+    validations:
+      required: true
+      
+  - type: textarea
+    id: usage_examples
+    attributes:
+      label: "Usage Examples"
+      description: "Provide concrete examples of how this rule is currently used"
+      placeholder: |
+        Example 1:
+        ```
+        # Code or content example here
+        ```
+        
+        Example 2:
+        ```
+        # Another example
+        ```
+    validations:
+      required: true
+      
+  - type: textarea
+    id: benefits_justification
+    attributes:
+      label: "Benefits and Justification"
+      description: "Why should this rule be promoted for external use?"
+      placeholder: |
+        - Improves consistency across repositories
+        - Reduces maintenance overhead
+        - Provides clear value to other teams
+        - Addresses common pain points
+    validations:
+      required: true
+      
+  - type: textarea
+    id: impact_assessment
+    attributes:
+      label: "Impact Assessment"
+      description: "What would be the impact of promoting this rule?"
+      placeholder: |
+        Positive impacts:
+        - Benefit 1
+        - Benefit 2
+        
+        Potential concerns:
+        - Concern 1 (and mitigation strategy)
+        - Concern 2 (and mitigation strategy)
+        
+        Affected repositories or teams:
+        - Repository/team 1
+        - Repository/team 2
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: "Promotion Urgency"
+      description: "How urgent is this promotion request?"
+      options:
+        - Low - Standard review timeline (2-3 weeks)
+        - Medium - Expedited review preferred (1-2 weeks)
+        - High - Urgent business need (emergency process)
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: promotion_checklist
+    attributes:
+      label: "Promotion Readiness Checklist"
+      description: "Confirm that all promotion requirements are met"
+      options:
+        - label: "Rule has been stable for at least 30 days"
+          required: true
+        - label: "Rule has demonstrated value within the internal environment"
+          required: true
+        - label: "No breaking changes in the last 14 days"
+          required: true
+        - label: "Comprehensive documentation is available"
+          required: true
+        - label: "Usage examples are provided and tested"
+          required: true
+        - label: "Impact on external repositories has been assessed"
+          required: true
+        - label: "I commit to ongoing support and maintenance of this rule"
+          required: true
+          
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional Context"
+      description: "Any additional information that would help with the promotion evaluation"
+      placeholder: "Optional: Additional details, references, or context..."
+    validations:
+      required: false
+      
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        **Next Steps:**
+        1. Maintainer team will conduct initial review within 5 business days
+        2. Peer review period (7 days minimum) 
+        3. Technical validation
+        4. Final approval decision
+        5. Promotion execution (if approved)
+        
+        For questions about the promotion process, see [Promotion Playbook](../docs/policies/PROMOTION_PLAYBOOK.md).

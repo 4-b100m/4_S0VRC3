@@ -1,0 +1,136 @@
+# Style Registry
+# INTERNAL_ENV_ONLY - This registry is for internal use within 4_S0VRC3 environment only.
+
+metadata:
+  version: "1.0.0"
+  namespace: "ENV"
+  environment: "4_S0VRC3"
+  containment_status: "internal_only"
+  last_updated: "2025-01-11"
+
+# Documentation Rules
+documentation:
+  ENV.DOC.FRONTMATTER:
+    name: "Internal Document Frontmatter"
+    description: "Standard frontmatter format for internal documentation files"
+    status: "experimental"
+    containment: "internal_only"
+    category: "formatting"
+    examples:
+      - "**INTERNAL_ENV_ONLY** - This document is for internal use within 4_S0VRC3 environment only."
+    usage_count: 0
+    stability_score: 0.7
+    
+  ENV.DOC.SECTION_HEADERS:
+    name: "Section Header Conventions"
+    description: "Standardized section header formatting for internal documents"
+    status: "experimental"
+    containment: "internal_only"
+    category: "structure"
+    examples:
+      - "## Overview"
+      - "### Step 1: Initial Setup"
+    usage_count: 0
+    stability_score: 0.8
+
+  ENV.DOC.CROSS_REFERENCE:
+    name: "Internal Cross-Reference Format"
+    description: "Format for referencing other internal documents"
+    status: "experimental"
+    containment: "internal_only"
+    category: "navigation"
+    examples:
+      - "[Related Documentation](../../path/to/file.md)"
+    usage_count: 0
+    stability_score: 0.6
+
+# Code Organization Rules
+code:
+  ENV.CODE.NAMESPACE:
+    name: "Internal Namespace Convention"
+    description: "Namespace prefix for all internal experimental rules"
+    status: "stable"
+    containment: "internal_only"
+    category: "naming"
+    examples:
+      - "ENV.RULE.NAME"
+      - "ENV.DOC.PATTERN"
+    usage_count: 0
+    stability_score: 0.9
+
+  ENV.CODE.FILE_NAMING:
+    name: "Internal File Naming Pattern"
+    description: "Naming convention for internal configuration and policy files"
+    status: "experimental"
+    containment: "internal_only"
+    category: "organization"
+    examples:
+      - "CONTAINMENT_POLICY.md"
+      - "style.registry.yml"
+    usage_count: 0
+    stability_score: 0.7
+
+# Process Rules
+process:
+  ENV.PROCESS.VALIDATION:
+    name: "Containment Validation Process"
+    description: "Automated validation workflow for internal content containment"
+    status: "experimental"
+    containment: "internal_only"
+    category: "automation"
+    examples:
+      - "python scripts/validate_containment.py"
+    usage_count: 0
+    stability_score: 0.8
+
+  ENV.PROCESS.PROMOTION:
+    name: "Rule Promotion Workflow"
+    description: "Process for promoting internal rules for external use"
+    status: "experimental"
+    containment: "internal_only"
+    category: "governance"
+    examples:
+      - "Create promotion request issue"
+      - "Peer review and approval process"
+    usage_count: 0
+    stability_score: 0.6
+
+# Validation Rules
+validation:
+  ENV.VALIDATION.BANNER_REQUIRED:
+    name: "Internal Banner Requirement"
+    description: "All internal policy files must include INTERNAL_ENV_ONLY banner"
+    status: "stable"
+    containment: "internal_only"
+    category: "compliance"
+    pattern: "INTERNAL_ENV_ONLY"
+    enforcement: "automatic"
+    
+  ENV.VALIDATION.GLOBAL_PHRASE_DETECTION:
+    name: "Global Phrase Detection"
+    description: "Detect phrases that might cause unintended external propagation"
+    status: "experimental"
+    containment: "internal_only"
+    category: "compliance"
+    prohibited_phrases:
+      - "use globally"
+      - "apply everywhere"
+      - "standard practice"
+    enforcement: "automatic"
+
+# Registry Metadata
+registry_rules:
+  promotion_criteria:
+    minimum_stability_score: 0.8
+    minimum_usage_count: 5
+    minimum_age_days: 30
+    
+  containment_levels:
+    - "internal_only"
+    - "promotion_candidate" 
+    - "promoted"
+    
+  status_values:
+    - "experimental"
+    - "stable"
+    - "deprecated"
