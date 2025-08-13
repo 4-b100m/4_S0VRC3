@@ -1,3 +1,12 @@
+---
+uniqueID: AA09
+title: "AAW_CORE10 \u2014 GENEALOGY ENGINE"
+tags:
+- system
+- protocol
+- core
+---
+
 # AAW_CORE::10 — GENEALOGY ENGINE
 
 ## NAME:

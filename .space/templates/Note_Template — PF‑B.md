@@ -1,12 +1,10 @@
 ---
-uid: "<% tp.file.title.match(/::\[(.*?)\]/)?.[1] || 'XXXX' %>"   # 4‑char quick‑ref (PF‑03)
-title: "<% tp.file.title.split('::')[1]?.replace('--',';') %>"  # functional;creative
-created: "<% tp.date.now('YYYY‑MM‑DD') %>"
-status: "Active"            # Active | Frozen | Public
-owner: "Anthony J. Padavano"
-organ_alignment: ""         # e.g. RE‑GE_OS/ORG_BODY_07
-refs: []                    # optional Zotero keys
+uniqueID: TE04
+title: "Note Template \u2014 Pf\u2011b"
+tags:
+- template
 ---
+
 
 ## 🔖 README
 One‑sentence purpose & canonical path.  

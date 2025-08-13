@@ -1,6 +1,11 @@
 ---
 aliases: []
+uniqueID: TR76
+title: Template
+tags:
+- template
 ---
+
 ---
 uid: "<% tp.file.title.match(/::\[(.*?)\]/)?.[1] || 'XXXX' %>"   # 4‑char quick‑ref (PF‑03)
 title: "<% tp.file.title.split('::')[1]?.replace('--',';') %>"  # functional;creative

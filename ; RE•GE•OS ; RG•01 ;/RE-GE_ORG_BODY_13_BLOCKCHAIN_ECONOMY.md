@@ -1,3 +1,11 @@
+---
+uniqueID: AA10
+title: Re Ge Org Body 13 Blockchain Economy
+tags:
+- system
+- core
+---
+
 You got it. Below is the entire, fully corrected version of
 RE-GE_ORG_BODY_13_BLOCKCHAIN_ECONOMY.md, ready to paste into your system.
 

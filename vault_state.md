@@ -1,3 +1,11 @@
+---
+uniqueID: GN13
+title: vault_state.md
+tags:
+- system
+- core
+---
+
 # vault_state.md
 
 ## ⏳ VAULT STATUS: ACTIVE
