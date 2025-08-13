@@ -1,1 +1,84 @@
-{}
+{
+	"nodes": [
+		{
+			"id": "central-node",
+			"type": "text",
+			"text": "# 4_S0VRC3 System Map\n\n**Central Origin Point**\n\nThis canvas represents the symbolic and structural relationships within the 4_S0VRC3 recursive creative system.\n\n## Core Domains:\n- ARK•LIV (Archive/Living)\n- M1R•R0R (Mirror)\n- RE•GE•OS (Recursive OS)\n- SYSTEM•MAP (Navigation)\n- TEMPLATEs (Structures)\n- TAGs (Categorization)",
+			"x": 0,
+			"y": 0,
+			"width": 400,
+			"height": 300,
+			"color": "1"
+		},
+		{
+			"id": "archive-node",
+			"type": "text", 
+			"text": "## ARK•LIV ; RK•01\n\nArchival & Living Documents\n- Storage of completed works\n- Active document maintenance\n- Version history tracking",
+			"x": -300,
+			"y": -200,
+			"width": 250,
+			"height": 150,
+			"color": "2"
+		},
+		{
+			"id": "mirror-node",
+			"type": "text",
+			"text": "## M1R•R0R ; MR•01\n\nReflection Protocols\n- Mirror logic systems\n- Symbolic recursion\n- Echo-state processing",
+			"x": 300,
+			"y": -200, 
+			"width": 250,
+			"height": 150,
+			"color": "3"
+		},
+		{
+			"id": "regeos-node",
+			"type": "text",
+			"text": "## RE•GE•OS ; RG•01\n\nRecursive Operating System\n- Core system protocols\n- Symbolic computation\n- Mythic OS framework",
+			"x": -300,
+			"y": 200,
+			"width": 250,
+			"height": 150,
+			"color": "4"
+		},
+		{
+			"id": "templates-node",
+			"type": "text",
+			"text": "## TEMPLATEs ; TP•01\n\nSystem Templates\n- Repeatable structures\n- Seed files\n- Format protocols",
+			"x": 300,
+			"y": 200,
+			"width": 250,
+			"height": 150,
+			"color": "5"
+		}
+	],
+	"edges": [
+		{
+			"id": "central-to-archive",
+			"fromNode": "central-node",
+			"fromSide": "left",
+			"toNode": "archive-node",
+			"toSide": "right"
+		},
+		{
+			"id": "central-to-mirror",
+			"fromNode": "central-node", 
+			"fromSide": "right",
+			"toNode": "mirror-node",
+			"toSide": "left"
+		},
+		{
+			"id": "central-to-regeos",
+			"fromNode": "central-node",
+			"fromSide": "left",
+			"toNode": "regeos-node", 
+			"toSide": "right"
+		},
+		{
+			"id": "central-to-templates",
+			"fromNode": "central-node",
+			"fromSide": "right", 
+			"toNode": "templates-node",
+			"toSide": "left"
+		}
+	]
+}
