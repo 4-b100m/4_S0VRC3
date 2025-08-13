@@ -1,0 +1,49 @@
+title: "[QUESTION] "
+labels: ["question", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ❓ Ask a Question
+        
+        Welcome to the 4_S0VRC3 community! Use this template to ask questions about the system, projects, or creative workflows.
+
+  - type: input
+    id: question-title
+    attributes:
+      label: "Question"
+      description: "What would you like to know?"
+      placeholder: "e.g. How do I contribute to project PR05?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Context & Details"
+      description: "Provide more context about what you're trying to do or understand"
+      placeholder: "What have you already tried? What specific part is unclear?"
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Related Area"
+      description: "Which area does your question relate to?"
+      options:
+        - General System Usage
+        - Specific Project (PR01-PR19)
+        - Thread Digests
+        - Templates & Workflows
+        - System Architecture
+        - Community & Collaboration
+        - Technical Issues
+        - Other
+
+  - type: checkboxes
+    id: urgency
+    attributes:
+      label: "Priority"
+      options:
+        - label: "This is blocking my work"
+        - label: "This would help me contribute better"
+        - label: "I'm just curious to learn more"
