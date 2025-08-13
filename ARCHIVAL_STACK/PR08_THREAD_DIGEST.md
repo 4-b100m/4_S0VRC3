@@ -1,3 +1,13 @@
+---
+uniqueID: PR08
+title: THREAD DIGEST for PR08
+tags:
+- thread
+- digest
+- archive
+---
+
+
 # THREAD DIGEST for PR08
 
 | Symbolic ID | Title | Timestamp |

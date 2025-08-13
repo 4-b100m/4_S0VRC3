@@ -1,3 +1,14 @@
+---
+uniqueID: AV01
+title: Untitled 2
+tags:
+- protocol
+- template
+- thread
+- system
+- core
+---
+
 **Understanding user's request**
 
 It looks like the user wants help implementing a more efficient and effective GPT layout, using a suggestion they found in another thread. They’re asking if I'd like to turn that layout into a working `.md` file with symbolic keys and status toggles. I think they’re looking for help applying that suggestion and creating the file. I'll need to clarify whether they want me to include specific adjustments or features, as described in the provided layout.
