@@ -228,7 +228,7 @@ echo "Thread digests: $(ls ARCHIVAL_STACK/PR*_THREAD_DIGEST.md | wc -l)"
    ```
 
 ## Timing Expectations and Performance
-- `git status` and `git log`
+- `git status` and `git log` (instant)
 - Basic file listing with `ls`
 - Simple grep searches
 - Markdown file counting
