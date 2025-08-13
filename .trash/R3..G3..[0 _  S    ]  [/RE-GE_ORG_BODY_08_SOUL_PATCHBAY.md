@@ -1,3 +1,11 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_08_SOUL_PATCHBAY.md
+tags:
+- system
+- thread
+---
+
 # RE:GE_ORG_BODY_08_SOUL_PATCHBAY.md
 
 ## NAME:

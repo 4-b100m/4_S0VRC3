@@ -1,3 +1,10 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_07_BLOOM_ENGINE.md
+tags:
+- system
+---
+
 # RE:GE_ORG_BODY_07_BLOOM_ENGINE.md
 
 ## NAME:

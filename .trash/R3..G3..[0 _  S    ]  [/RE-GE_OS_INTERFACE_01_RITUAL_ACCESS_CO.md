@@ -1,3 +1,13 @@
+---
+uniqueID: R352
+title: REGE_OS_INTERFACE_01_RITUAL_ACCESS_CONSOLE.md
+tags:
+- system
+- thread
+- template
+- core
+---
+
 # RE:GE_OS_INTERFACE_01_RITUAL_ACCESS_CONSOLE.md
 
 ## NAME:
