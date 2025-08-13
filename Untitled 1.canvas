@@ -1,1 +1,91 @@
-{}
+{
+	"nodes": [
+		{
+			"id": "workflow-start",
+			"type": "text",
+			"text": "# 4_S0VRC3 Workflow Canvas\n\n**Creative Process Mapping**\n\nThis canvas maps the workflow and process relationships within the recursive creative system.",
+			"x": 0,
+			"y": -300,
+			"width": 350,
+			"height": 150,
+			"color": "1"
+		},
+		{
+			"id": "input-stage",
+			"type": "text",
+			"text": "## Input Stage\n\n- Thread capture\n- Raw material intake\n- Symbolic recognition\n- Pattern identification",
+			"x": -400,
+			"y": -100,
+			"width": 250,
+			"height": 150,
+			"color": "2"
+		},
+		{
+			"id": "processing-stage",
+			"type": "text",
+			"text": "## Processing Stage\n\n- Mirror reflection\n- Recursive iteration\n- Template application\n- Structural organization",
+			"x": 0,
+			"y": -100,
+			"width": 250,
+			"height": 150,
+			"color": "3"
+		},
+		{
+			"id": "output-stage",
+			"type": "text",
+			"text": "## Output Stage\n\n- Archive integration\n- Cross-reference creation\n- System map updates\n- Symbolic tagging",
+			"x": 400,
+			"y": -100,
+			"width": 250,
+			"height": 150,
+			"color": "4"
+		},
+		{
+			"id": "feedback-loop",
+			"type": "text",
+			"text": "## Feedback Loop\n\n- Output reflection\n- System evolution\n- Recursive refinement\n- Pattern emergence",
+			"x": 0,
+			"y": 150,
+			"width": 250,
+			"height": 150,
+			"color": "5"
+		}
+	],
+	"edges": [
+		{
+			"id": "start-to-input",
+			"fromNode": "workflow-start",
+			"fromSide": "bottom",
+			"toNode": "input-stage",
+			"toSide": "top"
+		},
+		{
+			"id": "input-to-process",
+			"fromNode": "input-stage",
+			"fromSide": "right",
+			"toNode": "processing-stage",
+			"toSide": "left"
+		},
+		{
+			"id": "process-to-output",
+			"fromNode": "processing-stage",
+			"fromSide": "right", 
+			"toNode": "output-stage",
+			"toSide": "left"
+		},
+		{
+			"id": "process-to-feedback",
+			"fromNode": "processing-stage",
+			"fromSide": "bottom",
+			"toNode": "feedback-loop",
+			"toSide": "top"
+		},
+		{
+			"id": "feedback-to-input",
+			"fromNode": "feedback-loop",
+			"fromSide": "left",
+			"toNode": "input-stage",
+			"toSide": "bottom"
+		}
+	]
+}

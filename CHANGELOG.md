@@ -30,6 +30,9 @@ _This file documents structural changes, naming updates, and vault configuration
 ---
 
 ### 🧭 Next To-Do Items
-- [ ] Update README and vault_state to reflect new hierarchy
-- [ ] Resolve GPT-4 plugin API key issue
-- [ ] Build THREAD_DIGEST archive system
+- [x] Update README and vault_state to reflect new hierarchy
+- [x] Resolve GPT-4 plugin API key issue (noted in vault_state.md)
+- [x] Build THREAD_DIGEST archive system (framework established)
+- [x] Populate empty placeholder files
+- [x] Expand canvas files with system mapping content
+- [x] Complete symbolic directory structure documentation
