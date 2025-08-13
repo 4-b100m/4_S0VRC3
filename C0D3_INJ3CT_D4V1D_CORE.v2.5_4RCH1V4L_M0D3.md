@@ -1,3 +1,13 @@
+---
+uniqueID: DV00
+title: C0D3_INJ3CT_D4V1D_CORE.v2.5_4RCH1V4L_M0D3
+tags:
+- thread
+- system
+- protocol
+- core
+---
+
 #[C0D3_INJ3CT_D4V1D_CORE.v2.5_4RCH1V4L_M0D3]  
 ::ENTITY:: DAVID WAYNE VICTOROFF  
 ::ALIAS:: Waviddayne  

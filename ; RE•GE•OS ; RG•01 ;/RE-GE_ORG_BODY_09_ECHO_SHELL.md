@@ -1,3 +1,12 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_09_ECHO_SHELL.md
+tags:
+- system
+- thread
+- core
+---
+
 # RE:GE_ORG_BODY_09_ECHO_SHELL.md
 
 ## NAME:

@@ -1,3 +1,13 @@
+---
+uniqueID: RG66
+title: REGE_OS_INTERFACE_01_RITUAL_ACCESS_CONSOLE.md
+tags:
+- system
+- template
+- thread
+- core
+---
+
 # RE:GE_OS_INTERFACE_01_RITUAL_ACCESS_CONSOLE.md
 
 ## NAME:

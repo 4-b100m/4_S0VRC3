@@ -1,3 +1,11 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_06_CODE_FORGE.md
+tags:
+- core
+- system
+---
+
 # RE:GE_ORG_BODY_06_CODE_FORGE.md
 
 ## NAME:

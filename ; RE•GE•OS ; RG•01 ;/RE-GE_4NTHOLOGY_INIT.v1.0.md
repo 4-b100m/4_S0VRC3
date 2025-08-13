@@ -1,3 +1,14 @@
+---
+uniqueID: RC01
+title: Re Ge 4nthology Init.v1.0
+tags:
+- protocol
+- template
+- system
+- core
+- thread
+---
+
 |[ST4RT.io::RE:GE_4NTHOLOGY_FULLPRINT_INIT.v1.0]|
 MODE: Total thread recall. No compression. No laziness. No cut corners.
 FORMAT: Markdown-style inline print, across multiple messages, retaining context and formatting integrity.
