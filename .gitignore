@@ -1,0 +1,42 @@
+# Obsidian vault files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
+.obsidian/plugins/
+
+# MacOS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Obsidian trash (keep structure but not in version control)
+.trash/
+
+# Cache and sync files
+.obsidian/cache/
+.sync/
+.makemd/
+
+# Build artifacts and dependencies
+node_modules/
+dist/
+build/
+
+# ZIP archives are stored in ARCHIVES/ directory
+# Review contents before version control inclusion
+
+# Empty placeholder files
+Untitled*.md
+Untitled*.canvas
