@@ -57,7 +57,7 @@ The ARCHIVAL_STACK contains **processed thread digests** from GPT conversations,
 Projects with active thread digests: 01, 02, 03, 04, 05, 07, 08, 09, 11, 12, 15, 16, 17, 18, 19
 
 ### Missing Digests
-Projects without current thread digests: 06, 10, 13, 14, 20+ (if applicable)
+Projects without current thread digests: 06, 10, 13, 14, 20+ (TBD)
 
 ### Processing Status
 - **Complete**: 15 project digests active
