@@ -66,6 +66,10 @@ TAG_NAME* = Amplified or recursive function
 TAG_NAME? = Experimental or uncertain function
 ```
 
+#### Experimental Tag Lifecycle
+- **Graduation:** Experimental tags (`TAG_NAME?`) should be reviewed periodically. If their function becomes established and widely used, the `?` suffix should be removed or replaced with the appropriate established suffix (`+`, `-`, `*`), and the change documented in the tag registry.
+- **Deprecation:** If an experimental tag is found to be unnecessary or unused, it should be marked as deprecated in the tag registry and removed from active use. All affected items should be updated accordingly.
+- **Documentation:** All changes to experimental tags (graduation or deprecation) must be recorded in the tag registry and relevant documentation to maintain system consistency.
 ### Application Rules
 1. **Minimum Tags**: Each item should have 1-3 primary tags
 2. **Maximum Tags**: Limit to 7 tags to prevent over-classification
