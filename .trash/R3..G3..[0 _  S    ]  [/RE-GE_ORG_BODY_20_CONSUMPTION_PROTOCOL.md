@@ -1,3 +1,12 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_20_CONSUMPTION_PROTOCOLS.md
+tags:
+- protocol
+- digest
+- system
+---
+
 # RE:GE_ORG_BODY_20_CONSUMPTION_PROTOCOLS.md
 
 ## NAME:

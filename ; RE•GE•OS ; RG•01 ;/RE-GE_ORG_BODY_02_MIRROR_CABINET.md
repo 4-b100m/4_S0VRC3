@@ -1,3 +1,11 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_02_MIRROR_CABINET.md
+tags:
+- system
+- protocol
+---
+
 # RE:GE_ORG_BODY_02_MIRROR_CABINET.md
 
 ## NAME:
