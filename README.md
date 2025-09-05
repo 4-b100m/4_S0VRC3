@@ -24,3 +24,16 @@ It is both a symbolic node and a practical sandbox.
 ## 🔒 Status
 Naming logic frozen as of `2025-05-04`
 Vault version: `v1.0`
+## 📂 Organization
+- `root_overview.md` — quick index of organizational files
+- `folder_map.md` — canonical vault tree
+- `FOLDER_CATALOG_FINAL.md` — UID list of major folders
+- `NAME_STRUCTURE_OVERVIEW.md` — naming conventions
+- `THREAD_PROJECT_CROSSWALK.md` — GPT thread index
+- `PR_FOLDERS_MASTER_INDEX_FINAL.md` — master project folder index
+- `GPT_PROJECTS_ARCHIVE.md` — archive of GPT projects
+- `SYSTEM_ROOT_README.md` — master navigation hub
+- `vault_state.md` — vault status
+- `CHANGELOG.md` — structural history
+- `organization_suggestions.md` — deduplication and folder structure recommendations
+
