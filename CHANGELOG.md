@@ -3,6 +3,37 @@ _This file documents structural changes, naming updates, and vault configuration
 
 ---
 
+### [v2025-09-05] Repository fact checker
+
+**Date:** 2025-09-05
+**Status:** ✅ Active
+**Changes:**
+- Added `fact_check_repo.py` to flag filename/content mismatches and duplicate files.
+- Generated `fact_check_report.csv` summarizing detected issues.
+
+---
+
+### [v2025-08-29] Keyword walk integrity check
+
+**Date:** 2025-08-29
+**Status:** ✅ Active
+**Changes:**
+- Extended `walk_compare.py` to compute SHA256 hashes and traverse nested zip archives.
+- Added `verify_report.py` to confirm hashes in `walk_report.csv`.
+- Regenerated `walk_report.csv` with checksum records for all scanned files.
+
+---
+
+### [v2025-08-28] Vault walk and keyword audit
+
+**Date:** 2025-08-28
+**Status:** ✅ Active
+**Changes:**
+- Added `walk_compare.py` utility to traverse the vault and log protocol/SOP/naming/process keyword matches.
+- Generated `walk_report.csv` capturing 312 files with name/content comparisons.
+
+---
+
 ### [v2025-05-04] Initialization of `4_S0VRC3`
 
 **Date:** 2025-05-04 21:43:10
