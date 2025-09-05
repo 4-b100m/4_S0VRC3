@@ -33,6 +33,12 @@ It is both a symbolic node and a practical sandbox.
 - `/TEMPLATES/` — Repeatable structures and seed files
 - `/THREAD_DIGESTS/` — Captured conversations and iterations
 
+
+## 🤖 Commit Agent
+The repository includes a lightweight commit agent script (`scripts/commit_agent.py`) and a GitHub Action workflow (`.github/workflows/commit-agent.yml`). The agent reviews commit messages in pull requests for basic quality checks and offers a `safe_merge` helper for local use.
+
+Run `python scripts/commit_agent.py` to critique commit messages or pass `--merge <source> <target>` to perform a merge with safety checks.
+
 ## 🔒 Status
 Naming logic frozen as of `2025-05-04`
 Vault version: `v1.0`
