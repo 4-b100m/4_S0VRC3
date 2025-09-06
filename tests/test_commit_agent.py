@@ -1,11 +1,4 @@
-import sys
-from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-
-from scripts.commit_agent import CommitAgent
-
-
+from ..scripts.commit_agent import CommitAgent
 def test_critique_identifies_issues():
     agent = CommitAgent()
     critiques = agent.critique(["fix bug"])
