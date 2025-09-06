@@ -1,0 +1,53 @@
+title: "[IDEA] "
+labels: ["enhancement", "idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Share Your Idea
+        
+        Thank you for contributing to the 4_S0VRC3 creative system! Please use this template to share your ideas for new projects, system improvements, or collaborative opportunities.
+
+  - type: input
+    id: idea-title
+    attributes:
+      label: "Idea Title"
+      description: "A brief, descriptive title for your idea"
+      placeholder: "e.g. New template for project documentation"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Describe your idea in detail"
+      placeholder: "What is your idea? How would it work? What problem does it solve?"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Related Area"
+      description: "Which area of the system does this idea relate to?"
+      options:
+        - Projects (PR01-PR19)
+        - Thread Digests
+        - Templates & Workflows
+        - System Architecture
+        - Documentation
+        - Community Features
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: collaboration
+    attributes:
+      label: "Collaboration"
+      description: "Are you interested in collaborating on this idea?"
+      options:
+        - label: "I'd like to work on this myself"
+        - label: "I'm open to collaborating with others"
+        - label: "I'm sharing this for someone else to implement"
