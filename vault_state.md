@@ -41,7 +41,7 @@ Edit only with conscious intent. No casual renaming.
 
 # 🧭 Vault State File  
 **Vault Name:** `4_S0VRC3`  
-**Path:** `/Users/anthonyjamespadavano/Documents//4_S0VRC3`  
+**Path:** `/Users/anthonyjamespadavano/Documents/4_S0VRC3`
 **Date Created:** [2025-05-04]  
 **Last Reviewed:** 2025-05-04  
 **Maintainer:** AJP
