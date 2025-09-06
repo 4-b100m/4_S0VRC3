@@ -14,8 +14,16 @@ class CommitAgent:
 
     def run(self, args: List[str]) -> str:
         """Run a command and return stdout."""
-        result = subprocess.run(args, capture_output=True, text=True, check=True)
-        return result.stdout.strip()
+        try:
+            result = subprocess.run(args, capture_output=True, text=True, check=True)
+            return result.stdout.strip()
+        except subprocess.CalledProcessError as e:
+            raise RuntimeError(
+                f"Command failed: {' '.join(args)}\n"
+                f"Return code: {e.returncode}\n"
+                f"Stdout: {e.stdout.strip() if e.stdout else ''}\n"
+                f"Stderr: {e.stderr.strip() if e.stderr else ''}"
+            ) from e
 
     def get_commits(self, base: str = "origin/main") -> List[str]:
         """Return commit messages on current branch not in base."""
