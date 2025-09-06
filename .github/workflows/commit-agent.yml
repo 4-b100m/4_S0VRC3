@@ -1,0 +1,18 @@
+name: Commit Agent
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  critique:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Ensure all branches and commit history are fetched
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Run commit agent
+        run: python scripts/commit_agent.py --base origin/main
