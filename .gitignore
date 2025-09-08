@@ -1,0 +1,23 @@
+# Experimental Habitat temporary files
+/tmp/
+**/tmp/
+habitat_config.json
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Obsidian files
+.obsidian/workspace*
+.obsidian/workspaces.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary experimental workspaces
+**/habitat_*_*/
