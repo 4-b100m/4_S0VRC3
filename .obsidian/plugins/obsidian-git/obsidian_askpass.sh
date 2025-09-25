@@ -1,6 +1,13 @@
 #!/bin/sh
 
 PROMPT="$1"
+
+# Ensure the credentials path is provided
+if [ -z "$OBSIDIAN_GIT_CREDENTIALS_INPUT" ]; then
+    echo "OBSIDIAN_GIT_CREDENTIALS_INPUT not set" >&2
+    exit 1
+fi
+
 TEMP_FILE="$OBSIDIAN_GIT_CREDENTIALS_INPUT"
 
 cleanup() {
