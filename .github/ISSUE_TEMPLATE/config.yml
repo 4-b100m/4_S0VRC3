@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🎨 4_S0VRC3 Community Discussions
+    url: https://github.com/4-b100m/4_S0VRC3/discussions
+    about: Join our community discussions for questions, ideas, collaboration, and sharing creative work
+  - name: ❓ Ask a Question
+    url: https://github.com/4-b100m/4_S0VRC3/discussions/new?category=questions-help
+    about: Ask questions about the system, projects, or creative processes
+  - name: 💡 Share an Idea
+    url: https://github.com/4-b100m/4_S0VRC3/discussions/new?category=ideas-proposals  
+    about: Propose new projects, workflows, or system improvements
+  - name: 🤝 Project Collaboration
+    url: https://github.com/4-b100m/4_S0VRC3/discussions/new?category=project-collaboration
+    about: Collaborate on specific projects (PR01-PR19) and thread digests
