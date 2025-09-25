@@ -3,6 +3,12 @@
 PROMPT="$1"
 TEMP_FILE="$OBSIDIAN_GIT_CREDENTIALS_INPUT"
 
+# Ensure the credentials path is provided
+if [ -z "$OBSIDIAN_GIT_CREDENTIALS_INPUT" ]; then
+    echo "OBSIDIAN_GIT_CREDENTIALS_INPUT not set" >&2
+    exit 1
+fi
+
 cleanup() {
     rm -f "$TEMP_FILE" "$TEMP_FILE.response"
 }
