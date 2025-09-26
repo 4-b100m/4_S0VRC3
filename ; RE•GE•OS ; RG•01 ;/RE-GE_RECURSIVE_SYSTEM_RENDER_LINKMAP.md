@@ -1,3 +1,13 @@
+---
+uniqueID: RG40
+title: REGE_RECURSIVE_SYSTEM_RENDER LINKMAP_PASS_01.md
+tags:
+- system
+- core
+- protocol
+- thread
+---
+
 # RE:GE_RECURSIVE_SYSTEM_RENDER: LINKMAP_PASS_01.md
 
 ## NAME:

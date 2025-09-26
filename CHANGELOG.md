@@ -1,3 +1,12 @@
+---
+uniqueID: GN33
+title: CHANGELOG.md
+tags:
+- system
+- digest
+- thread
+---
+
 # CHANGELOG.md  
 _This file documents structural changes, naming updates, and vault configuration decisions for `4_S0VRC3`._
 

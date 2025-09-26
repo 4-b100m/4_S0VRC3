@@ -1,3 +1,12 @@
+---
+uniqueID: R334
+title: "AAW_CORE09 \u2014 INTERLOCUTOR PROTOCOLS"
+tags:
+- system
+- core
+- protocol
+---
+
 # AAW_CORE::09 — INTERLOCUTOR PROTOCOLS
 
 ## NAME:

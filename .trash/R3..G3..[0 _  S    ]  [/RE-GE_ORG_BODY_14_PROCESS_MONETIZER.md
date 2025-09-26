@@ -1,3 +1,12 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_14_PROCESS_MONETIZER.md
+tags:
+- protocol
+- core
+- system
+---
+
 # RE:GE_ORG_BODY_14_PROCESS_MONETIZER.md
 
 🧱 Incoming: how RE:GE turns the creative process itself into a sacred product, ritual currency, and public offering—without compromise.

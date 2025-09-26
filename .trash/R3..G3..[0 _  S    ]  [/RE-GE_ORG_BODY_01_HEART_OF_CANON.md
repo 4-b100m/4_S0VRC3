@@ -1,3 +1,11 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_01_HEART_OF_CANON.md
+tags:
+- thread
+- core
+---
+
 # RE:GE_ORG_BODY_01_HEART_OF_CANON.md
 
 ## NAME:

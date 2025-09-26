@@ -1,3 +1,12 @@
+---
+uniqueID: GN04
+title: CHR0N0S Manifest
+tags:
+- thread
+- core
+- system
+---
+
 # CHR0N0S Manifest
 
 **Purpose:**  

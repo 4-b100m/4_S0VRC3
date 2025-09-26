@@ -1,3 +1,13 @@
+---
+uniqueID: AA09
+title: "AAW_CORE08 \u2014 CANONIZATION ENGINE"
+tags:
+- thread
+- system
+- protocol
+- core
+---
+
 # AAW_CORE::08 — CANONIZATION ENGINE
 
 ## NAME:
