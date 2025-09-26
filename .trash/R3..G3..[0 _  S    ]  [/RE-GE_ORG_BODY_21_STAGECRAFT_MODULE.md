@@ -1,3 +1,10 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_21_STAGECRAFT_MODULE.md
+tags:
+- system
+---
+
 # RE:GE_ORG_BODY_21_STAGECRAFT_MODULE.md
 
 ## NAME:

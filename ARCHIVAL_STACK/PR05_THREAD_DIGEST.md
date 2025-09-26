@@ -1,3 +1,14 @@
+---
+uniqueID: PR05
+title: THREAD DIGEST for PR05
+tags:
+- digest
+- thread
+- protocol
+- archive
+---
+
+
 # THREAD DIGEST for PR05
 
 | Symbolic ID | Title | Timestamp |

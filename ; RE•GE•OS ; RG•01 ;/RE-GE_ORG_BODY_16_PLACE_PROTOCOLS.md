@@ -1,3 +1,11 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_16_PLACE_PROTOCOLS.md
+tags:
+- system
+- protocol
+---
+
 # RE:GE_ORG_BODY_16_PLACE_PROTOCOLS.md
 
 ::RENDERING SYMBOLIC GEOGRAPHY::

@@ -1,3 +1,12 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_10_DREAM_COUNCIL.md
+tags:
+- system
+- core
+- thread
+---
+
 # RE:GE_ORG_BODY_10_DREAM_COUNCIL.md
 
 ## NAME:
