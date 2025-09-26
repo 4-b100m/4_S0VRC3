@@ -1,3 +1,13 @@
+---
+uniqueID: R387
+title: REGE_RECURSIVE_SYSTEM_RENDER LINKMAP_PASS_01.md
+tags:
+- core
+- protocol
+- system
+- thread
+---
+
 # RE:GE_RECURSIVE_SYSTEM_RENDER: LINKMAP_PASS_01.md
 
 ## NAME:

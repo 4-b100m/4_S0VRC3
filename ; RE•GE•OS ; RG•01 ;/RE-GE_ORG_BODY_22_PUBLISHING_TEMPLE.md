@@ -1,3 +1,10 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_22_PUBLISHING_TEMPLE.md
+tags:
+- system
+---
+
 # RE:GE_ORG_BODY_22_PUBLISHING_TEMPLE.md
 
 ## NAME:

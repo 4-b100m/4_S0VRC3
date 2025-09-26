@@ -1,3 +1,12 @@
+---
+uniqueID: RG45
+title: "AAW_CORE09 \u2014 INTERLOCUTOR PROTOCOLS"
+tags:
+- core
+- protocol
+- system
+---
+
 # AAW_CORE::09 — INTERLOCUTOR PROTOCOLS
 
 ## NAME:
