@@ -1,3 +1,13 @@
+---
+uniqueID: AA09
+title: RE==GE_ORG_BODY_00_ACADEMIA_WING_PROTOCOL====.md
+tags:
+- protocol
+- core
+- thread
+- system
+---
+
 # RE:==GE_ORG_BODY_00_ACADEMIA_WING_PROTOCOL====.md
 
 ---

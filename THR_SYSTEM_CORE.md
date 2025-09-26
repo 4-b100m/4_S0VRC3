@@ -1,7 +1,16 @@
 ---
 aliases:
-  - "::THR_SYSTEM_CORE::"
+- '::THR_SYSTEM_CORE::'
+uniqueID: PR01
+title: THR_SYSTEM_CORE
+tags:
+- system
+- digest
+- thread
+- template
+- core
 ---
+
 # ::THR_SYSTEM_CORE::
 
 ### Purpose: Centralize, govern, and evolve RE:GE_OS + Obsidian Vault logic

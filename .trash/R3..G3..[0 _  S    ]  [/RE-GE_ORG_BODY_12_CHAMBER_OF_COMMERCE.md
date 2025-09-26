@@ -1,3 +1,13 @@
+---
+uniqueID: AA10
+title: REGE_ORG_BODY_12_CHAMBER_OF_COMMERCE.md
+tags:
+- core
+- protocol
+- system
+- thread
+---
+
 # RE:GE_ORG_BODY_12_CHAMBER_OF_COMMERCE.md
 
 ## NAME:

@@ -1,3 +1,15 @@
+---
+uniqueID: GN09
+title: __VAULT_GUIDE__.md
+tags:
+- system
+- template
+- core
+- protocol
+- digest
+- thread
+---
+
 # __VAULT_GUIDE__.md
 🧭 **Welcome to `4_S0VRC3` — The AJP Creative Operating Vault**
 
